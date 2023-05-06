@@ -1,0 +1,81 @@
+.account{
+    box-shadow: 0 0 15px 1px grey;
+    padding: 1rem;
+     margin: 10vw;
+    border-radius: 20px;
+    padding-top: 5rem;
+    padding-bottom: 30px;
+    padding-right: 30vw;
+ }
+
+ .account h6{
+    font-size: 15px;
+    font-weight: 300;
+ }
+
+ .account h3{
+    font-size: 35px;
+  }
+
+  .account span{
+    font-size: 12px;
+  }
+  .account form{
+    margin-top: 2rem;
+   }
+  .input{
+    height: 50px;
+    width: 40%;
+     border-radius: 15px;
+    padding-left: 20px;
+    background: linear-gradient(154deg, rgb(122, 101, 101), rgb(71, 71, 227));
+    color: white;
+  }
+  .input input, .input select{
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  .input select{
+    padding: 0;
+    margin-left: -5px;
+    }
+  .duo{
+    width: 80%;
+    display: flex;
+     justify-content: space-between;
+     margin-top: 2rem;
+  }
+
+  .input .label{
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .fw{
+    margin-top: 2rem;
+  }
+  .fw .input{
+    width: 100%;
+  }
+  .account .submit{
+    display: flex;
+    justify-content: space-between;
+     width: 80%;
+   }
+
+  
+  .account button{
+    width: 45%;
+    margin-top: 2rem;
+    background: blue;
+    color: white;
+    padding: 15px 0;
+    border-radius: 15px;
+    border: none;
+
+  }
+  button.signin{
+    background: grey;
+   }
