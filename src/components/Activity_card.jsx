@@ -5,8 +5,8 @@ const Activity_card = () => {
   const [events, setEvents] = useState([
     {
       id: 1,
-      title: 'Event 1',
-      subtext: 'This is event 1',
+      title: 'Lorem ipsum dolor sit amet',
+      subtext: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi est consequuntur iure, excepturi nulla accusantium      ',
       date: 'April 1, 2023',
       imageUrl: '../assets/image1.jpg',
     },

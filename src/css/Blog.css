@@ -3,8 +3,12 @@
     display: flex;
     align-items: center;
   }
+  .hidden{
+    width: 100vw;
+    overflow-x: hidden;
+  }
   
-  .tab {
+  .tabs {
     margin-right: 40px;
     color: blue;
    }
@@ -56,4 +60,23 @@
     padding:  10px 20px 10px 20px;
     border: none;
     border-radius: 5px;
+}
+
+@media (max-width: 700px){
+    .banner{
+         overflow-x: auto;
+        align-items: left;
+         padding-left: 19rem;
+         padding-right: 1rem;
+
+    }
+    .tabs {
+         color: blue;
+         width: 1200px;
+        padding: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+         }
 }

@@ -1,16 +1,20 @@
 .navbar {
+    position: fixed;
+    
+    width: 100%;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
+    padding-right: 3rem;
     box-shadow: 4px 0 15px 1px rgba(80, 79, 79, 0.622);
     z-index: 10;
   }
   
   .navbar__nav {
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
   }
   
   .navbar__nav a {
@@ -27,11 +31,15 @@
     border-radius: 4px;
     padding: 0.5rem 1rem;
     cursor: pointer;
+    margin-right: 3rem;
   }
  
   @media (max-width: 700px){
-    .navbar__nav, .navbar__button{
+    .navbar__nav, .navbar__nav a, .navbar__button{
       display: none;
+    }
+    .navbar{
+      height: 45px;
     }
      
  

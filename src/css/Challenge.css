@@ -22,7 +22,7 @@
     margin-left: 10%;
     padding-top: 2rem;
   }
-  
+
   .middle-column {
     width: 70%;
     display: flex;
@@ -33,12 +33,14 @@
    }
   .middle-column h1{
     font-size: 3rem;
+    z-index: 4;
   } 
   .middle-column h3{
     letter-spacing: 1px;
     font-weight: 400;
     color: grey;
     margin: -5px;
+    z-index: 4;
   }
   .circle-container {
     display: flex;
@@ -96,18 +98,25 @@
   }
   
   .challenge-button {
-    background-color: rgb(75, 39, 193);
+    background-color: rgb(30, 90, 255);
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     margin-top: 20px;
     cursor: pointer;
-    padding: 10px 100px 10px 100px;
+    padding: 15px 100px 15px 100px;
     margin-top: 60px;
+    z-index: 4;
   }
   
   .challenge-button:hover {
     background-color: darkblue;
   }
   
+  @media (max-width: 700px){
+    .middle-column{
+      margin-left: -2rem;
+    }
+    
+  }

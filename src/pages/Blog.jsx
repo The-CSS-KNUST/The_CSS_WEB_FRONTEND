@@ -5,14 +5,14 @@ import blogImage from "../assets/AII.webp"
 
 const Blog = () => {
   return (
-    <div>
+    <div className="hidden">
       <Navbar />
       <div className="banner">
-        <div className="tab">Latest</div>
-        <div className="tab">Artificial Intelligence</div>
-        <div className="tab">Data Science</div>
-        <div className="tab">Mobile Application</div>
-        <div className="tab">Machine Learning</div>
+        <div className="tabs">Latest Posts </div>
+        <div className="tabs">Artificial Intelligence</div>
+        <div className="tabs">Data Science</div>
+        <div className="tabs">Mobile Application</div>
+        <div className="tabs">Machine Learning</div>
       </div>
 
       <div className="blogs">
