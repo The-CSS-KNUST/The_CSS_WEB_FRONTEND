@@ -51,7 +51,7 @@
   .event-card__text button {
     background-color: #ffffff;
     color: #154ab4;
-    border: 1px solid blue;
+    border: 1px solid #007bff;
      padding: 0.5rem 1rem;
     border-radius: 5px;
     cursor: pointer;

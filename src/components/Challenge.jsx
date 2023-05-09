@@ -6,15 +6,15 @@ const Challenge = () => {
     <div className="challenge">
       <div className="left-column">
         <div className="circle-container">
-          <div className="circle blue"></div>
+          <div className="circle bg #007bff"></div>
            
         </div>
         <div className="circle-container">
-           <div className="circle red"></div>
+           <div className="circle bg red"></div>
          </div>
         <div className="circle-container">
           
-          <div className="circle green"></div>
+          <div className="circle bg green"></div>
         </div>
       </div>
       <div className="middle-column">
@@ -29,15 +29,15 @@ const Challenge = () => {
       </div>
       <div className="right-column">
         <div className="circle-container">
-          <div className="circle green gr"></div>
+          <div className="circle bg green gr"></div>
           
         </div>
         <div className="circle-container">
-           <div className="circle red rr"></div>
+           <div className="circle bg red rr"></div>
          </div>
         <div className="circle-container">
           
-          <div className="circle blue br"></div>
+          <div className="circle bg #007bff br"></div>
         </div>
       </div>
     </div>

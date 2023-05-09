@@ -3,9 +3,8 @@ import Navbar from "../components/Navbar";
 import "../css/Account.css";
 const Account = () => {
     return(
-        <>
+        <div className="acccount_container">
             <Navbar />
-
             <div className="account">
                 <div className="sign_up">
                     <h6>Sign Up For Free</h6>
@@ -74,9 +73,7 @@ const Account = () => {
                     </form>
                 </div>
             </div>
-
-        
-        </>
+        </div>
 
         
     )

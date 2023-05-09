@@ -1,20 +1,38 @@
+.acccount_container{
+  height: calc(100vh + 20rem);
+  width: 100vw;
+     background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    color: white;
+    background: url(../assets/AI.jpg);
+   
+}
+
 .account{
-    box-shadow: 0 0 15px 1px grey;
+    box-shadow: 0 0 15px 2px #007bffc0;
     padding: 1rem;
      margin: 10vw;
     border-radius: 20px;
     padding-top: 5rem;
     padding-bottom: 30px;
     padding-right: 30vw;
+    color: #222;
+   
+
  }
 
  .account h6{
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 300;
+    color: #007bff;
+
  }
 
  .account h3{
     font-size: 35px;
+    color: #007bff;
+
   }
 
   .account span{
@@ -28,19 +46,20 @@
     width: 40%;
      border-radius: 15px;
     padding-left: 20px;
-    background: linear-gradient(154deg, rgb(122, 101, 101), rgb(71, 71, 227));
-    color: white;
+    border: 2px solid white;
+     color: #2a1b3a;
+     box-shadow: 0 0 15px 1px #809cb969;
   }
   .input input, .input select{
     width: 100%;
     background: transparent;
     border: none;
     outline: none;
+    color: #222;
   }
   .input select{
     padding: 0;
-    margin-left: -5px;
-    }
+     }
   .duo{
     width: 80%;
     display: flex;
@@ -69,13 +88,43 @@
   .account button{
     width: 45%;
     margin-top: 2rem;
-    background: blue;
+    background: #007bff;
     color: white;
     padding: 15px 0;
     border-radius: 15px;
     border: none;
 
+
   }
   button.signin{
     background: grey;
+    color: white;
+   }
+
+   @media (max-width: 700px){
+    .account{
+      margin: 0;
+      height: 100%;
+       overflow-y: auto;
+      overflow-x: hidden;
+      box-shadow: 0 0 0 0 ;
+  
+     }
+     .account .input{
+
+      }
+     .duo{
+       width: 95%;
+      
+     }
+     .account .sign_up{
+       width: 90vw;
+      margin-top: 15vh;
+     }
+     .acccount_container{
+          height: max-content;
+          border: 1px solid;
+    }
+    
+
    }

@@ -3,14 +3,14 @@
 }
 button i{
   background: red;
-  color: blue;
+  color: #007bff;
   
 }
 @media (max-width: 700px){
 
   .menu_icon{
     font-size: 50px;
-    color: blue;
+    color: #007bff;
   }
   
 .mobile-navigation {
@@ -45,7 +45,7 @@ button i{
 }
 
 .toggle-button {
-    outline: none;
+     
     display: unset;
   color: white;
   font-size: 20px;
@@ -94,6 +94,52 @@ button i{
 
 .nav-items a:hover {
   background-color: rgba(255, 255, 255, 0.7);
+}
+.toggle-button{
+  border: none;
+  
+ }
+
+ .toggle-button .sp{
+  height: 3px;
+  width: 40px;
+  background: #007bff;
+  border-radius: 10px;
+  transition: .3s ease;
+
+
+ }
+
+ .toggle-button .sp1{
+
+  margin-bottom: 10px;
+  margin-top: 10px;
+   
+
+}
+
+
+.toggle-button .sp2{
+   
+  margin-top: 10px;
+}
+
+
+
+.toggle-button .sp3{
+ 
+  margin-top: 10px;
+}
+.toggle-button.active .sp3{
+  display: none;
+}
+.toggle-button.active .sp1{
+  transform: rotate(45deg);
+   margin-top: 20px;
+}
+.toggle-button.active .sp2{
+  transform: rotate(-45deg);
+  margin-top: -13px;
 }
 
 

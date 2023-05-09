@@ -20,16 +20,29 @@ function Mobile_nav() {
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
+    toggle_items('.toggle-button');
   };
+
+  function toggle_items(item_name){
+    document.querySelector(item_name).classList.toggle("active");
+    
+  }
 
   return (
     <>
-     <button className="toggle-button" onClick={handleToggle}><i className="bi bi-x-lg"></i></button>
+     <div className="toggle-button" onClick={handleToggle}>
+           <div className='sp sp1'></div>
+           <div className='sp sp2'></div>
+           <div className='sp sp3'></div>
+     </div>
      <div className={`mobile-navigation ${isOpen ? '' : 'open'}`}>
       <div className="mobile-navigation-header">
-        <button className="toggle-button" onClick={handleToggle}>
+        {/* <button className="toggle-button" onClick={handleToggle}>
              <i className="fa-solid fa-list-radio menu_icon"></i>
-         </button>
+         </button> */}
+         <div className="toggle-button active" onClick={handleToggle}>
+              
+         </div>
         {/* <div className="profile">
           <img src="profile-image.jpg" alt="Profile" />
           <span>John Doe</span>
@@ -41,6 +54,7 @@ function Mobile_nav() {
         <Link to="/challenge">Challenge</Link>
         <Link to="/executives">Executives</Link>
         <Link to="/blog">Blog</Link>
+        <Link to="/account">Account</Link>
       </nav>
     </div>
     </>

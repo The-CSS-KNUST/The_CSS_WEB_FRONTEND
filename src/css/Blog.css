@@ -10,7 +10,7 @@
   
   .tabs {
     margin-right: 40px;
-    color: blue;
+    color: #007bff;
    }
   .blogs{
     display: flex;
@@ -54,29 +54,27 @@
     margin-top: 10px;
 }
 .b_text_section button{
-    background: #4e4edc;
-    color: white;
+     color: #007bff;
+     border: 1px solid #007bff;
     margin-top: 20px;
     padding:  10px 20px 10px 20px;
-    border: none;
-    border-radius: 5px;
+     border-radius: 5px;
 }
 
 @media (max-width: 700px){
     .banner{
          overflow-x: auto;
-        align-items: left;
-         padding-left: 19rem;
-         padding-right: 1rem;
+        align-items: center;
+          padding-right: 2rem;
+         padding-top: 80px;
+         padding-left: 2rem;
 
     }
     .tabs {
-         color: blue;
-         width: 1200px;
-        padding: 3px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+
+  
          }
 }
