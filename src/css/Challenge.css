@@ -15,12 +15,14 @@
   
   .left-column {
     margin-right: 10%;
+    padding-top: 2rem;
    }
   
   .right-column {
     margin-left: 10%;
+    padding-top: 2rem;
   }
-  
+
   .middle-column {
     width: 70%;
     display: flex;
@@ -31,12 +33,15 @@
    }
   .middle-column h1{
     font-size: 3rem;
+    z-index: 4;
+    color: #007bff;
   } 
   .middle-column h3{
     letter-spacing: 1px;
     font-weight: 400;
     color: grey;
     margin: -5px;
+    z-index: 4;
   }
   .circle-container {
     display: flex;
@@ -55,18 +60,24 @@
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
   }
+  .circle-container .bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   
   .blue {
-    background-color: blue;
+    background: url(../assets/img1.jpg);
+    
    }
   
    .green {
-    background-color: green;
+    background: url(../assets/img2.jpg);
     margin-left: 120px;
   }
   
   .red {
-    background-color: red;
+    background: url(../assets/img3.jpg);
     margin-left: 290px;
   }
 
@@ -94,18 +105,28 @@
   }
   
   .challenge-button {
-    background-color: rgb(75, 39, 193);
+    background-color: #007bff;
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     margin-top: 20px;
     cursor: pointer;
-    padding: 10px 100px 10px 100px;
+    padding: 15px 100px 15px 100px;
     margin-top: 60px;
+    z-index: 4;
   }
   
   .challenge-button:hover {
-    background-color: darkblue;
+    background-color: dark#007bff;
   }
   
+  @media (max-width: 700px){
+    .middle-column{
+      margin-left: -2rem;
+     }
+    .red{
+      display: none;
+    }
+    
+  }

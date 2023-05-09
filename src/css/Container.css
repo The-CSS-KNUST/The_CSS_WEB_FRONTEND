@@ -3,3 +3,11 @@
     width: 100vw;
     overflow-x: hidden;
  }
+
+ .cen{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    flex-direction: column;
+
+}

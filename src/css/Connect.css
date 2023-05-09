@@ -21,7 +21,7 @@
   }
   
   .connect-list li:hover {
-    color: blue;
+    color: #007bff;
     cursor: pointer;
   }
   

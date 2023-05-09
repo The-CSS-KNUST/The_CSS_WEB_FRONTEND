@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import "../css/Activity_card.css";
-
-const Activity_card = () => {
+import "../css/Activity_card_plus.css";
+const Activity_card_plus = () => {
   const [events, setEvents] = useState([
     {
       id: 1,
-      title: 'Lorem ipsum dolor sit amet',
-      subtext: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi est consequuntur iure, excepturi nulla accusantium      ',
+      title: 'Event 1',
+      subtext: 'This is event 1',
       date: 'April 1, 2023',
       imageUrl: '../assets/image1.jpg',
     },
@@ -17,12 +17,20 @@ const Activity_card = () => {
       date: 'April 2, 2023',
       imageUrl: '../assets/image1.jpg',
     },
+    {
+        id: 3,
+        title: 'Event 3',
+        subtext: 'This is event 3',
+        date: 'April 2, 2023',
+        imageUrl: '../assets/image1.jpg',
+      },
   ]);
 
   return (
     <div className="event-cards">
       {events.map((event) => (
         <div key={event.id} className="event-card">
+          <div className="month">January, 2023</div>
           <div className="event-card__image">
             <img src={event.imageUrl} alt="Event" />
           </div>
@@ -38,4 +46,4 @@ const Activity_card = () => {
   );
 };
 
-export default Activity_card;
+export default Activity_card_plus;

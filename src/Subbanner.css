@@ -1,5 +1,9 @@
 .banner {
+<<<<<<< HEAD
     background-color: lightblue;
+=======
+    background-color: light#007bff;
+>>>>>>> origin/divines-branch
     display: flex;
     justify-content: center;
     align-items: center;
