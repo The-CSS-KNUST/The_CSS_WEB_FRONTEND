@@ -1,23 +1,19 @@
-.banner {
-<<<<<<< HEAD
-    background-color: lightblue;
-=======
+.sub_banner {
     background-color: light#007bff;
->>>>>>> origin/divines-branch
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80px;
   }
   
-  .banner__text {
+  .sub_banner__text {
     color: white;
     text-align: center;
     font-size: 24px;
     margin: 0;
   }
   
-  .banner__link {
+  .sub_banner__link {
     color: white;
     text-decoration: underline;
   }
