@@ -9,7 +9,7 @@ function Subbanner() {
   }
 
   return (
-    <div className="sub_banner">
+    <div className="banner">
       <p className="banner__text">{bannerText}</p>
      </div>
   );

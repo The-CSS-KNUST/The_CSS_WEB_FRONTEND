@@ -1,12 +1,11 @@
 import React from "react";
 import "../css/Socials.css";
-import Csslogo from "../assets/CSS LOGO 1.jpg";
 
 const Socials = () => {
   return (
     <div className="socials-container">
       <div className="socials-left">
-        <img src={Csslogo} alt="Logo" className="socials-logo" />
+        <img src="logo.png" alt="Logo" className="socials-logo" />
       </div>
       <div className="socials-right">
         <a href="#">
