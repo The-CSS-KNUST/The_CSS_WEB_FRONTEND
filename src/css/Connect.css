@@ -21,7 +21,11 @@
   }
   
   .connect-list li:hover {
+<<<<<<< HEAD
     color: blue;
+=======
+    color: #007bff;
+>>>>>>> origin/divines-branch
     cursor: pointer;
   }
   

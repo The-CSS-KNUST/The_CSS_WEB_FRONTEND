@@ -31,6 +31,7 @@
   }
   
   .event-card__text {
+<<<<<<< HEAD
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -54,9 +55,71 @@
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
+=======
+    padding-left: 4rem;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   }
+  
+  .event-card__text h2 {
+    font-size: 2rem;
+    margin-top: -0.5rem;
+   }
+  
+  .event-card__text p {
+    margin-top: -0.5rem;
+    font-size: 12px;
+  }
+  
+  .event-card__text button {
+    background-color: #ffffff;
+    color: #154ab4;
+    border: 1px solid #007bff;
+     padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    width: 200px;
+>>>>>>> origin/divines-branch
   }
   
   .event-card__text button:hover {
     background-color: #0062cc;
+<<<<<<< HEAD
   }
   
+=======
+    color: white;
+  }
+  
+  @media (max-width: 700px){
+    .event-cards{
+      height: max-content;
+    }
+    .event-card{
+      flex-direction: column;
+       padding: 20px;
+      box-shadow: 0 0 15px 1px rgba(80, 80, 131, 0.527);
+    }
+    .event-card__image{
+      border-radius: 15px;
+      box-shadow: 0 0 15px 1px rgba(80, 80, 131, 0.527);
+
+    }
+    .event-card__text{
+       padding: 0;
+      padding-top: 1rem;
+    }
+    .event-card__text h2 {
+      font-size: 1.5rem;
+      margin-top: -0.5rem;
+     }
+       
+  
+  
+    
+
+  }
+>>>>>>> origin/divines-branch

@@ -15,12 +15,22 @@
   
   .left-column {
     margin-right: 10%;
+<<<<<<< HEAD
+=======
+    padding-top: 2rem;
+>>>>>>> origin/divines-branch
    }
   
   .right-column {
     margin-left: 10%;
+<<<<<<< HEAD
   }
   
+=======
+    padding-top: 2rem;
+  }
+
+>>>>>>> origin/divines-branch
   .middle-column {
     width: 70%;
     display: flex;
@@ -31,12 +41,21 @@
    }
   .middle-column h1{
     font-size: 3rem;
+<<<<<<< HEAD
+=======
+    z-index: 4;
+    color: #007bff;
+>>>>>>> origin/divines-branch
   } 
   .middle-column h3{
     letter-spacing: 1px;
     font-weight: 400;
     color: grey;
     margin: -5px;
+<<<<<<< HEAD
+=======
+    z-index: 4;
+>>>>>>> origin/divines-branch
   }
   .circle-container {
     display: flex;
@@ -55,6 +74,7 @@
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
   }
+<<<<<<< HEAD
   
   .blue {
     background-color: blue;
@@ -62,11 +82,30 @@
   
    .green {
     background-color: green;
+=======
+  .circle-container .bg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .blue {
+    background: url(../assets/img1.jpg);
+    
+   }
+  
+   .green {
+    background: url(../assets/img2.jpg);
+>>>>>>> origin/divines-branch
     margin-left: 120px;
   }
   
   .red {
+<<<<<<< HEAD
     background-color: red;
+=======
+    background: url(../assets/img3.jpg);
+>>>>>>> origin/divines-branch
     margin-left: 290px;
   }
 
@@ -94,13 +133,18 @@
   }
   
   .challenge-button {
+<<<<<<< HEAD
     background-color: rgb(75, 39, 193);
+=======
+    background-color: #007bff;
+>>>>>>> origin/divines-branch
     color: white;
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     margin-top: 20px;
     cursor: pointer;
+<<<<<<< HEAD
     padding: 10px 100px 10px 100px;
     margin-top: 60px;
   }
@@ -109,3 +153,23 @@
     background-color: darkblue;
   }
   
+=======
+    padding: 15px 100px 15px 100px;
+    margin-top: 60px;
+    z-index: 4;
+  }
+  
+  .challenge-button:hover {
+    background-color: dark#007bff;
+  }
+  
+  @media (max-width: 700px){
+    .middle-column{
+      margin-left: -2rem;
+     }
+    .red{
+      display: none;
+    }
+    
+  }
+>>>>>>> origin/divines-branch

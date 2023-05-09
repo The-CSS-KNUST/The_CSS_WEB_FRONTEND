@@ -2,7 +2,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+<<<<<<< HEAD
     background-color: blue;
+=======
+    background-color: #007bff;
+>>>>>>> origin/divines-branch
     padding: 5rem;
      color: white;
    }
@@ -33,7 +37,11 @@
   
   .nl-button {
     border: none;
+<<<<<<< HEAD
     background-color: blue;
+=======
+    background-color: #007bff;
+>>>>>>> origin/divines-branch
     color: white;
     padding: 10px;
     border-radius: 5px;

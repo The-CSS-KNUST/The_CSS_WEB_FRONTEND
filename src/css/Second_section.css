@@ -18,4 +18,18 @@ h4{
     color: white;
     border: none;
     padding: 8px 20px 8px 20px;
+<<<<<<< HEAD
+=======
+}
+
+@media (max-width: 700px){
+    .s_s{
+        margin-top: 27rem;
+
+    }
+    .header button{
+        display: none;
+    }
+ 
+>>>>>>> origin/divines-branch
 }
