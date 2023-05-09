@@ -1,7 +1,6 @@
 import React from 'react';
 import '../css/Navbar.css';
-import React from 'react';
-import { Link } from 'react-router-dom';
+ import { Link } from 'react-router-dom';
 import '../css/Navbar.css';
 import Mobile_nav from './Mobile_nav';
 import Csslogo from "../assets/CSS LOGO 1.jpg";
@@ -28,19 +27,3 @@ function Navbar() {
 
 export default Navbar;
 
-function Navbar() {
-  return (
-    <div className="navbar">
-      <div className="navbar__logo">Logo</div>
-      <nav className="navbar__nav">
-        <a href="#">Home</a>
-        <a href="#">Activities</a>
-        <a href="#">Challenge</a>
-        <a href="#">Executives</a>
-        <a href="#">Blog</a>
-      </nav>
-      <button className="navbar__button">SIGN IN</button>
-    </div>
-  );
-}
-export default Navbar;

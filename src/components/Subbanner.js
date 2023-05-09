@@ -9,11 +9,7 @@ function Subbanner() {
   }
 
   return (
-<<<<<<< HEAD
-    <div className="banner">
-=======
     <div className="sub_banner">
->>>>>>> origin/divines-branch
       <p className="banner__text">{bannerText}</p>
      </div>
   );

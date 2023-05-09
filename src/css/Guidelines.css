@@ -30,8 +30,6 @@
   cursor: pointer;
   margin: 15px;
   padding: 20px 100px 20px 100px;
-<<<<<<< HEAD
-=======
   transition: .3s ease;
 }
 .guidelines button:hover{
@@ -40,5 +38,4 @@
   padding: 20px 110px 20px 110px;
 
 
->>>>>>> origin/divines-branch
 }

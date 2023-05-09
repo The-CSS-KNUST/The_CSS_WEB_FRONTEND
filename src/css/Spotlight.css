@@ -3,15 +3,12 @@
     display: flex;
     flex-direction: column;
   }
-<<<<<<< HEAD
-=======
   .spotlight-card p{
     font-size: 12px;
     text-align: center;
     line-height: 20px;
     padding: 1rem;
   }
->>>>>>> origin/divines-branch
   
   @media (max-width: 767px) {
     .spotlight {
@@ -37,11 +34,7 @@
   }
   
   .spotlight-button {
-<<<<<<< HEAD
-    background-color: blue;
-=======
     background-color: #007bff;
->>>>>>> origin/divines-branch
     color: #fff;
     padding: 0.5rem 1rem;
     border: none;
@@ -74,14 +67,6 @@
     align-items: center;
     background-color: #fff;
     border: 1px solid #ccc;
-<<<<<<< HEAD
-    border-radius: 0.25rem;
-    padding: 1rem;
-    width: 30%;
-    height: 100%;
-    box-sizing: border-box;
-    position: relative;
-=======
     border-radius: 1.25rem;
     padding: 1rem;
     width: 30%;
@@ -89,7 +74,6 @@
     box-sizing: border-box;
     position: relative;
     padding-bottom: 2rem;
->>>>>>> origin/divines-branch
    }
   
   @media (max-width: 767px) {
@@ -102,11 +86,8 @@
     width: 100%;
     height: 50%;
     margin-bottom: 1rem;
-<<<<<<< HEAD
-=======
     border-radius: 1.25rem;
 
->>>>>>> origin/divines-branch
    }
   
   .spotlight-card-text {
@@ -116,20 +97,11 @@
   }
   
   .spotlight-card-button {
-<<<<<<< HEAD
-     color: blue;
-=======
      color: #007bff;
->>>>>>> origin/divines-branch
      position: absolute;
     bottom: 10px;
     left: 10px;
     background-color: white;
-<<<<<<< HEAD
-    border: 1px solid blue;
-    padding: 10px 20px 10px 20px;
-   }  
-=======
     border: 1px solid #007bff;
     padding: 10px 20px 10px 20px;
    }  
@@ -152,4 +124,3 @@
     
 
    }
->>>>>>> origin/divines-branch

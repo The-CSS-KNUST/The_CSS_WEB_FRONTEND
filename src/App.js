@@ -1,15 +1,4 @@
-<<<<<<< HEAD
- import Reach from 'react';
- import Container from './components/Container';
 
-function App() {
-  return (
-    <Container />
-  );
-}
-
-export default App;
-=======
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 
@@ -53,4 +42,4 @@ const App = () => {
 export default App;
 
 
->>>>>>> origin/divines-branch
+

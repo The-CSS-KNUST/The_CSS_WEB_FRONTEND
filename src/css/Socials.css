@@ -23,11 +23,7 @@
   }
   
   .socials-icon {
-<<<<<<< HEAD
-    color: blue;
-=======
     color: #007bff;
->>>>>>> origin/divines-branch
     font-size: 35px;
     margin-right: 10px;
     transition: color 0.3s ease-in-out;

@@ -31,31 +31,6 @@
   }
   
   .event-card__text {
-<<<<<<< HEAD
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  .event-card__text h2 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .event-card__text p {
-    margin-bottom: 1rem;
-  }
-  
-  .event-card__text button {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    padding: 0.5rem 1rem;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-=======
     padding-left: 4rem;
     padding-top: 0;
     display: flex;
@@ -82,15 +57,10 @@
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
     width: 200px;
->>>>>>> origin/divines-branch
   }
   
   .event-card__text button:hover {
     background-color: #0062cc;
-<<<<<<< HEAD
-  }
-  
-=======
     color: white;
   }
   
@@ -122,4 +92,3 @@
     
 
   }
->>>>>>> origin/divines-branch

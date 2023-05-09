@@ -6,17 +6,6 @@ const Challenge = () => {
     <div className="challenge">
       <div className="left-column">
         <div className="circle-container">
-<<<<<<< HEAD
-          <div className="circle blue"></div>
-           
-        </div>
-        <div className="circle-container">
-           <div className="circle red"></div>
-         </div>
-        <div className="circle-container">
-          
-          <div className="circle green"></div>
-=======
           <div className="circle bg #007bff"></div>
            
         </div>
@@ -26,7 +15,6 @@ const Challenge = () => {
         <div className="circle-container">
           
           <div className="circle bg green"></div>
->>>>>>> origin/divines-branch
         </div>
       </div>
       <div className="middle-column">
@@ -41,17 +29,6 @@ const Challenge = () => {
       </div>
       <div className="right-column">
         <div className="circle-container">
-<<<<<<< HEAD
-          <div className="circle green gr"></div>
-          
-        </div>
-        <div className="circle-container">
-           <div className="circle red rr"></div>
-         </div>
-        <div className="circle-container">
-          
-          <div className="circle blue br"></div>
-=======
           <div className="circle bg green gr"></div>
           
         </div>
@@ -61,7 +38,6 @@ const Challenge = () => {
         <div className="circle-container">
           
           <div className="circle bg #007bff br"></div>
->>>>>>> origin/divines-branch
         </div>
       </div>
     </div>
